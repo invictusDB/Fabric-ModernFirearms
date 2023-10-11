@@ -1,5 +1,6 @@
 package name.modern_firearms;
 
+import name.modern_firearms.item.ModitemGroups;
 import name.modern_firearms.item.Moditems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ public class ModernFirearms implements ModInitializer {
 	//调用添加物品的方法
 	@Override
 	public void onInitialize() {
+		ModitemGroups.registerItemGroups();
 		Moditems.registerModItems();
 	}
 }

@@ -1,3 +1,6 @@
 {
-  "item.modernfirearms.modernfirearms_alloy": "合金锭"
+  "item.modernfirearms.modernfirearms_alloy": "合金锭",
+  "item.modernfirearms.modernfirearms_rew_alloy": "粗合金矿",
+
+  "itemgroup.modernfirearms": "现代化枪械"
 }

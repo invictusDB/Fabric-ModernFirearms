@@ -1,3 +1,6 @@
 {
-  "item.modernfirearms.modernfirearms_alloy": "Alloy ingot"
+  "item.modernfirearms.modernfirearms_alloy": "Alloy ingot",
+  "item.modernfirearms.modernfirearms_rew_alloy": "Coarse alloy ingot",
+
+  "itemgroup.modernfirearms": "Modern firearms"
 }

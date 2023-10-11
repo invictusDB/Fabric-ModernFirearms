@@ -13,9 +13,11 @@ import net.minecraft.util.Identifier;
 public class Moditems {
     //此方法为构造物品
     public static final Item MODDERNFIREARMS_ALLOY = registerItem("modernfirearms_alloy",new Item(new FabricItemSettings()));
+    public static final Item MODDERNFIREARMS_REW_ALLOY = registerItem("modernfirearms_rew_alloy",new Item(new FabricItemSettings()));
     //此方法往创造模式列表添加物品
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(MODDERNFIREARMS_ALLOY);
+        entries.add(MODDERNFIREARMS_REW_ALLOY);
     }
     //此方法为增加该物品列表
     private static Item registerItem (String name,Item item){
