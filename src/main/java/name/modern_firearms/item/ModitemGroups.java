@@ -19,8 +19,9 @@ public class ModitemGroups {
                     //下方代码表示标签页所使用的图标的地址和Moditems.MODDERNFIREARMS_ALLOY为同一个
                     .icon(()->new ItemStack(Moditems.MODDERNFIREARMS_ALLOY)).entries((displayContext, entries) -> {
                         //在此大括号内添加该标签页内所要显示的物品
-                        entries.add(Moditems.MODDERNFIREARMS_ALLOY);
                         entries.add(Moditems.MODDERNFIREARMS_REW_ALLOY);
+                        entries.add(Moditems.MODDERNFIREARMS_ALLOY);
+                        entries.add(Moditems.MODDERNFIREARMS_ALLOY_BLOCK);
 
                     }
             ).build());
